@@ -1,0 +1,9 @@
+/********  estilo de la primera web de la Noticia *******/
+
+*{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+color: black;}
+
+h1 {font-size:60px;
+    text-align:center;}
+h2{text-align:center;}
+

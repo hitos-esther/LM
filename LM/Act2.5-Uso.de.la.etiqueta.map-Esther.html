@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+   
+</style>
+
+</head>
+<body>
+    <!-- le digo donde tiene que coger la imagen, como se llama la imagen,
+    usemap=#mapa=se utiliza para crear una relación entre la imagen y el mapa de imagen.
+    y el alto y ancho de la imagen     -->
+    <img src="./imagenes/map.jpg" alt="Mapamundi" usemap="#mapa" width="1907" height="1178">
+<!-- AQUI TENEMOS LA RELACIóN mencionada antes -->
+<map name="mapa">
+    <!-- area de America del Norte en cuadrado -->
+  <area shape="rect" coords="19,18,533,383" alt="America del norte" href="https://mapaamerica.top/america-del-norte-norteamerica/">
+  <!-- area de America del Sur en cuadrado -->
+  <area shape="rect" coords="425,539,762,1031" alt="America del sur" href="https://mapaamerica.top/america-del-sur-sudamerica/">
+  <!-- area de Europa en circulo -->
+  <area shape="circle" coords="953,328,226" alt="Europa" href="https://unmapamundi.com/europa/">
+  <!-- area de Africa en cuadrado con una funcion de alerta al picar con el raton en el area -->
+  <area shape="rect" coords="734,398,1085,954" onclick="myFunction()" alt="Africa" href="https://unmapamundi.com/africa/">
+  <!-- area de Europa en circulo -->
+  <area shape="circle" coords="1454,377,301" alt="Asia" href="https://unmapamundi.com/asia/">
+    <!--la intencion es hacerlo como poli pero no funciona lo repetire en circulo para almenos dejarlo activo -->
+ <!-- <area shape="poly" coords="1348,598,1398,591,1427,568,1459,589,1477,555,1519,608,1522,674,1481,714,1418,710,1375,711,1347,699" alt="Oceania" href="Act2.5-Uso.de.la.etiqueta.map-Esther.html">-->
+ <area shape="circle" coords="1574,834,201" alt="Oceania" href="https://unmapamundi.com/oceania/">
+</map>
+<script>
+    function myFunction() {
+      alert("!Picaste en Africa buena elección!");
+    }
+    </script>   
+    
+</body>
+</html>

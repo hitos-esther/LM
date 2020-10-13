@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- enlce de la hoja de estilo -->
+    <link href="estilo.css" rel="stylesheet">
+    <title>Formateando HMTL</title>
+</head>
+<body>
+    <!-- Titulo mas pequeño y centrado igual que el siguiente parrafo-->
+    <h2 style="text-align:center;">Actividad<sup>1.2</sup> : Formateando HMTL</h2>
+    <p style="text-align:center"> Las últimas etiquetas estudiadas (formateadores de texto, citas, direcciones, color, abreviaturas…), diseña tu web para contener el siguiente texto.</p>
+    <!-- esta centrado el texto en la hoja de estilo-->
+    <h1>El grito de Edvard Munch</h1> 
+    <!-- la imagen la e puesto flotante para que el parrafo me quedara pegado a la imagen-->
+      <img src="./imagenes/small.jpg" alt="Smiley face" style="float:left;width:42px;height:42px;"><p style="color:rgb(177, 174, 174);">Revisado por Andrea Imaginario • Especialista en Artes, Literatura Comparada e Historia</P> 
+ <!-- cite=cita porque es una obra de arte
+        <i> para poner en cursiva los nombres -->        
+    <p><cite>El grito</cite> es una obra del pintor noruego <i>Edvard Munch</i>, cuyo título original es <i>Skrik</i> (<i>Scream en inglés</i>). Debido a su fuerza expresiva, esta pintura es considerada un antecedente del movimiento expresionista. El grito es el cuadro más famoso de Munch, quien realizó diferentes versiones del mismo a lo largo de los años.</p>
+    <!-- la imagen la he encuadrado en un bloque -->
+<img src="imagenes/imagen.jpg" alt="el grito" style="block-size: 400px;">
+   <!-- small=la descripcion de la imagen la he escrito mas pequeña.
+        b= en negrita.
+        mark= un marco de color verde-->  
+    <p><small><cite>El grito</cite> .1893 . Óleo y pastel sobre cartón. <sub>91 x 73,5 cm</sub>.</small><b>Galería Nacional de Oslo</b>,<mark style="background-color: rgba(136, 221, 119, 0.801);">Noruega.</mark> </p>
+     
+    <p>Según <i>Andrea Imaginario</i>: El grito presenta a una figura andrógina en primer plano con un gesto de angustia que transmite gran expresividad y fuerza psicológica.</p>
+    <!-- blockuote= el parrafo lo trata como un bloque de cita.
+        q = le pone las comillas-->
+    <p> <i>Edvard Munch</i> comentaba de sus pinturas que el arte surge del interior del hombre:</p>
+        <blockquote cite= "https://lamenteesmaravillosa.com/5-frases-de-edvard-munch/"><q>Una obra de arte solo puede venir desde el interior del hombre. El arte es la forma de la imagen que se forma sobre los nervios, el corazón, el cerebro y los ojos del hombre</q>.</blockquote>
+    <!-- abbr = marca el atributo de la abrebiatura-->
+        <p>Museos como el  <abbr title="Museo de arte comtemporáneo">MAC</abbr> <ins>(Museo de arte comtemporáneo)</ins> de Madrid o el IVAM (Instituto Valenciano de Arte Moderno) de Valencia estarían encantandos de exponerlo entre sus pinturas.</p>
+    <!-- del = tacha la palabra.
+        em = en cursiva-->
+        <p title="Cita de Edvard Munch">El museo de <del>Israel</del>, dijo en su momento:<em> אדוורד מונץ 'תמיד היה אסמכתא באקספרסיוניזם </em>(Edvard Munch ha sido siempre referente en el expresionismo).</p>
+    <hr>
+        <address>Andrea Imaginario<br>
+        Facultad de Arte<br>
+        Universidad de Venezuela<br>
+        Caracas, Distrito Capital, Venezuela</address>
+       <!-- hr = separa parafos con una linea.
+            addres = marca como etiqueta la direccion-->
+</body>
+</html>

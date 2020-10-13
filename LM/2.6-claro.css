@@ -1,0 +1,77 @@
+/*estilo de la actividad 2.6 claro*/
+*{font-family: myFirstFont;}
+/*estilo de de titulos h1, h2, h3, */
+h1{text-align:center;
+    text-shadow: 2px 2px 5px red;}
+
+h2{text-align:center;
+    text-shadow: 2px 2px 5px red;
+    font-size: 200%;}
+
+h3 {text-decoration: underline;}
+
+#apartado4{ text-align:left;
+            text-shadow: 2px 2px 5px red;
+            text-decoration: underline; }
+/*estilo de los parrafos*/
+p{color: #000;
+    font-size: 100%;}
+/*estilo de imagen de tim berner*/
+img{background-image: url('./imagenes/Sir_Tim_Berners-Lee_.jpg');
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+      }
+#fotoberner{text-align: center;}
+mark{color: rgb(29, 31, 29);
+    background-color: rgba(153, 205, 50, 0.219);}
+/*estilo imagen nextcube y cita del parrafo de la foto*/
+#img{background-image: url('./imagenes/nextcube.jpg');
+    border-radius: 8px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;}
+    img:hover {transform: scaleX(-1);}
+#cita{text-align: center;}    
+
+ #apartado1{text-align: center;}     
+/*estilo de los botones y colores del indice*/    
+    a {text-decoration: none;}
+    a.indice {border:1px inset rgb(57, 88, 45);
+            border-radius: 10px;
+            padding: 5px;
+            background-color: rgb(207, 240, 163);
+            color: rgb(25, 25, 26);} 
+    a.indice:hover {border:1px outset silver;
+                    background-color: rgb(243, 30, 30);
+                    color: rgb(240, 226, 36);}
+/*estilo del bloque donde esta el Indice*/ 
+    ol {list-style-type: upper-alpha;}
+    ol li {display: list-item;
+            margin: 3px;
+            margin-bottom: 10px;} 
+/*estilo de la imagen de fondo del cuerpo (body)*/
+body {
+    background-color: lightgrey;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;}
+
+/*estilo de enlaces externos apartado 4*/
+.Enlaces {
+    font-style: italic;
+    font-size: 120%;
+    color: red;
+  }
+/*estilo de la cita de la foto de berner*/
+cite {text-align:center;
+    background-color: rgba(32, 178, 171, 0.562);}  
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+ 

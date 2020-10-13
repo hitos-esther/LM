@@ -1,0 +1,14 @@
+/********  estilo de la mi primera web *******/
+
+/*** estilo del cuerpo ****/
+body{background-color: rgb(232, 237, 241);}
+p {color: rgb(0, 0, 0);
+   font-style: oblique;
+   text-align: center;
+   font-size: 20px}
+h1{font-size: 40px;
+    text-align: center;}
+img{background-image: url('LM/imagenes/pasarela.PNG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;}
