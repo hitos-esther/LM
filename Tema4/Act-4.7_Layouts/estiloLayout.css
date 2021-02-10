@@ -1,0 +1,344 @@
+
+/********  estilo de la web de tema libre *******/
+
+#wrapper {width:90%;       /* todo el layout ocupa un 90% */
+  margin:0 auto;}  /* está centrado */
+
+@media only screen and (max-width:550px){
+#wrapper {width:100%}
+}
+
+@font-face{
+  src:url("/Act-4.7_Layouts/fuentes/Lobster-Regular.ttf");
+  font-family: 'Lobster', cursive;    
+  }
+
+  
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lobster&display=swap');
+ 
+
+body{
+  background-color: rgb(169, 169, 169);
+  text-align: center;
+  font-family: 'Calligraffitti', cursive;
+}
+h3{font-family: 'Calligraffitti',}
+
+/****** topnav responsive with dropdown ******/
+nav{
+  font-family: 'Open Sans Condensed', sans-serif;
+  position:sticky;
+  top:0;
+  z-index:99
+  }
+ 
+.topnav {
+      overflow: hidden;
+      background-color: rgb(184, 48, 184);
+      }
+.topnav .search-container{
+                      float: right;
+                      }
+.topnav input[type=text]{
+                      padding: 6px;
+                      margin-top: 8px;
+                      margin-right: 10px;
+                      font-size:large 17px;
+                      border: groove;
+                      }
+.topnav .search-container button{
+                              float: right;
+                              padding: 11px;
+                              margin-top: 8px;
+                              margin-right: 10px;
+                              margin-left: 3px;
+                              background:20px  black;
+                              color: white;
+                              font-size: 10px;
+                              border: none;
+                              cursor: pointer;
+}
+@media screen and (max-width: 600px) {
+.topnav .search-container {
+  float: none;
+}
+.topnav a, .topnav input[type=text], .topnav .search-container button {
+  float: none;
+  display: block;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  padding: 14px;
+}
+.topnav input[type=text] {
+  border: 5px solid rgb(255,0,255);  
+}
+}         
+.topnav a{
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+        }
+       
+.topnav a:hover{
+            background-color: #ddd;
+            color: black;
+            }
+       
+.topnav a.active{
+              background-color:rgb(184, 48, 184);
+              color: white;
+              }
+       
+.topnav .icon{
+          display: none;
+          }
+       
+      @media screen and (max-width: 600px) {
+         .topnav a:not(:first-child) {display: none;}
+         .topnav a.icon {
+           float: right;
+           display: block;
+         }
+       }
+       
+       @media screen and (max-width: 600px) {
+         .topnav.responsive {position: relative;}
+         .topnav.responsive .icon {
+           position: absolute;
+           right: 0;
+           top: 0;
+         }
+         .topnav.responsive a {
+           float: none;
+           display: block;
+           text-align: left;
+         }
+       }
+
+
+
+
+/***** SECCCION HEADER ********/
+
+.w3-container{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 50%;
+  height: 50vh;
+  background-position:left top;
+  text-align: left;
+  font-family: 'Lobster';
+}
+.w3-container1{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-position:left top;
+  height: 50vh;
+  background: linear-gradient(to right, #9966ff 0%, #ff9999 100%);
+  text-align: center;
+  font-family: 'Lobster';
+  }
+
+/********* SECTION EN GENERAL **************/
+.titulo,h1{font-family: 'Lobster';}
+.titulo-seccion {
+          font-family: 'Calligraffitti', cursive; 
+          text-align:center;
+          width:40%;
+          padding:5%;
+          margin:4% auto;
+          border-top: 5px solid rgb(255, 128, 255);
+          border-bottom: 5px solid rgb(255, 128, 255);}
+.titulo-seccion h1 {font-size: 130%;
+                    font-family: 'Calligraffitti', cursive;}
+.final {clear:both;}  /* esto es para romper el float left al final ***/
+
+/******* ESTILO DE GALERIA **********/
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family:'Calligraffitti', cursive;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/************* ESTÁ MAQUETADA EN TERCIOS *******/
+
+.tercios {width:33.33%;
+  padding:6%;
+  text-align:justify;
+  float:left;}
+.tercios img { width: 100%;}
+
+#tres-uno, #tres-tres {background-image: initial ;
+background: linear-gradient(to bottom, #ccffcc 0%, #ffcccc 100%);}
+
+#tres-dos {background: linear-gradient(to bottom, #ccffcc 0%, #ffcccc 100%);}                       
+
+@media only screen and (max-width:800px){
+.tercios {width:100%;}
+.tercios img { width: 100%;}
+}
+
+
+/******** PREGUNTAS FRECUENTES (ACCORDION DE W3SCHOOL) *****/
+
+.accordion {
+background-color:rgba(211, 141, 144, 0.801);
+color: rgb(29, 12, 23);
+cursor: pointer;
+padding: 18px;
+width: 100%;
+border-radius: 1% color black;
+text-align: left;
+outline: none;
+font-size: 15px;
+transition: 0.4s;
+font-family: 'Cormorant SC';font-size: 22px;
+}
+
+.active, .accordion:hover {
+background-color: #ccc; 
+}
+button.accordion:after {
+content: '\002B';
+color: #777;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+button.accordion.active:after {
+content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+
+
+
+/****** PROBANDO PARALLAX EN LOS TÍTULOS ***********/
+.parallax {
+/* The image used */
+background-image: url("imagenes_trabajo_raton/conferencia1960.PNG");
+border-radius:45%;
+text-align: center;
+font-family: 'Calligraffitti', cursive;
+font-size: 22px;
+padding: 5px;
+/* Full height */
+height: 5%;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.parallax .texto-parallax {
+background-color: rgba(255, 255, 255, 0.603);
+padding:10px;
+width:60%;
+margin:0 auto;
+border-radius:50%;
+}
+
+/* Turn off parallax scrolling for all tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 800px) {
+.parallax {
+background-attachment: scroll;
+}
+}
+
+section#parallax {padding:5%;}
+
+/********* estilo de footer ***********/
+footer {background-color:#ccc;
+  border: 1px solid black;
+  padding:10px;
+  font-family: 'Cormorant SC';
+  }
+
+footer ul {padding-left:0;
+  list-style-type: none;
+}
+footer h3 {text-align: center;
+              font-family: 'Cormorant SC';font-size: 22px;
+            }
+footer ul {margin-left: 20%;}
+footer ul li a {text-decoration: none;
+        color: black;
+        font-family: 'Cormorant SC';font-size: 22px;}
+
+footer ul li a:hover {color:rgb(24, 231, 231);}
+
+footer .mitadfoter {box-sizing:border-box;
+            width:50%;
+            padding:5%;
+            float:left;
+            border-inline-start-color: black;} /** para que cada columna sea la mitad **/
+ /* borde y padding incluidos **/
+ /** para mostrar como bloque apilable **/
+ /** para apilar 2 columnas **que el apilamiento termina **/
+footer #final {clear:both;}
+footer #izq {border-right: 1px solid black;}
+footer #mimapa {width:100%}    
+footer #anno {font-family: 'Cormorant SC';font-size: 22px;}
+
+@media only screen and (max-width:600px){footer .mitadfoter {width:100%;}}

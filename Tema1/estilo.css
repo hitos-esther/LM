@@ -1,0 +1,77 @@
+/********  estilo Act 2.2 Formateando un articulo con citas *******/
+
+/*estilo global*/
+  *{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,   Verdana, sans-serif;}
+
+/*color de fondo en el cuepo*/
+    body{background-color: rgb(244, 241, 247);
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+        border: 15px double blueviolet;
+        padding: 50px;
+        margin: 20px;}
+    
+/** Estilo del los titulos**/
+    h1 {font-size:60px;
+        text-align:center;
+        font-family: fantasy;
+        color: rgb(69, 24, 110);}
+
+    h2 {text-align:center;
+        color: rgb(71, 21, 117);
+        }
+    sup{color: rgb(59, 16, 99);
+        }
+   .subtitulo{color: blueviolet;
+              text-align: center;}
+
+/** Estilo de las imagenes y cita de la misma **/
+    .big{display: block;
+         margin-left: auto;
+         margin-right: auto;
+         width: 20%;
+         border: 20px outset blueviolet;
+         padding: 5px;
+        }
+
+    #cita2{color: rgb(69, 24, 110);
+           background-position: center;
+          }
+    #small{float: left;
+           width:72px;
+           height:72px;
+           border: 5px outset blueviolet;
+           }
+    .cita3{ color: rgb(59, 16, 99);
+            font-family: sans-serif;
+            background-position: center;
+           }
+
+    .cita{color: blueviolet;
+          font-style: oblique;
+          }
+
+/** Estilo de parrafos <p> con su clase **/
+    p{color: rgb(69, 24, 110);}
+    q{color:rgba(76, 0, 130);
+        background-color: rgba(76, 0, 130, 0.246);}
+    ins{color:rgb(76,0,130);}
+   
+    cite{color: blueviolet;
+        background-position: center;
+        }
+    i{color: rgb(106, 90, 205);}
+    sub{color:blueviolet ;}
+    b{color: rgb(59, 16, 99) ;}
+    mark{color:rgb(89, 19, 107);
+         background-color:rgb(243, 161, 202) ;
+        }
+    abbr{color: rgb(252, 122, 187);}
+    em{color: rgb(252, 122, 187);}
+    del{color: rgb(130, 0, 0);}
+    hr{background-color:blueviolet;}
+    address{background-color:rgb(243, 161, 202);
+            color:rgb(59, 16, 99);
+            padding: 10px;}    
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css5.7.css" rel="stylesheet">
+    <title>Act 5.7 Formulario-2</title>
+
+</head>
+
+<body>
+    <fieldset>
+        <legend>Completar</legend>
+        <div class="cuadrosTexto">
+            <label for="favcolor">Elija un color:</label>
+            <input type="color" name="color"><br>
+            <label for="fname">Nombre</label>
+            <input type="text" name="nombre"><br>
+            <label for="lname">Apellidos</label>
+            <input type="text" name="apellidos"><br>
+            <label for="phone">Telefono</label>
+            <input type="tel" name="phone" placeholder="666-666-666" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"><br>
+        </div>
+
+        <div>
+            <input type="checkbox" name="asignatura" value="asignaturalengua">
+            <label for="asignatura">Lengua</label>
+            <input type="checkbox" name="asignatura" value="asignaturamatematicas">
+            <label for="asignatura"> Matemáticas</label>
+            <input type="checkbox" name="asignatura" value="asignaturahistoria">
+            <label for="asignatura"> Historia</label>
+            <input type="checkbox" name="asignatura" value="asignaturageografia">
+            <label for="asignatura"> Geografia</label>
+        </div>
+        <label for="file">Elija un fichero:</label>
+        <input type="file" name="file">
+
+        <textarea id="areatexto" name="textarea" rows="4" cols="57">
+Utilice este cuadro para escribir
+        </textarea>
+        <div class="radiobuttons">
+            <input type="radio" name="formato" value="formatojpg">
+            <label for="jpg">JPG</label>
+            <input type="radio" name="formato" value="formatopng">
+            <label for="png">PNG</label>
+        </div>
+    </fieldset>
+</body>
+
+</html>

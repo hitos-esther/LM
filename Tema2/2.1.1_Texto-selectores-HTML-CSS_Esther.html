@@ -1,0 +1,58 @@
+<!-- 3- Si quisiéramos establecer excepciones al estilo general de fuente en un párrafo en particular ¿de qué 2 formas podríamos hacerlo?
+
+    <id>=se utiliza para especificar una identificación única para un elemento HTML.
+
+    <class>=se utiliza para especificar una clase para un elemento HTML.
+
+    <spam>=es un elemento en línea.
+        <span>=elemento es un contenedor en línea que se utiliza para marcar una parte de un texto o una parte de un documento.
+
+    <div>=es un elemento a nivel de bloque.
+        (style, classy id son comunes)
+Emplea una de esas formas en el primer ejercicio en el párrafo que
+prefieras, y la otra en el segundo ejercicio, en un párrafo también a elegir-->
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Ejercicio de selectores 1</title>
+<style>
+/* Todos los elementos de la página */
+/* 1em=tamaño de letra, 1.3=tamaño de entre lineas */
+*{font: 1em/1.3 Arial, Helvetica, sans-serif;}
+/* Todos los parrafos de la página */
+p{color: #555;}
+/* Todos los párrafos contenidos en #primero */
+#primero p{color: #336699;}
+/* Todos los enlaces la página */
+a{color: #CC3300;}
+/* Los elementos "em" contenidos en #primero */
+#primero em{background: #FFFFCC; padding: .1em;}
+/* Todos los elementos "em" de clase "especial" en toda la página */
+em .especial/*descendencia(es seguida de una etiqueta em pero especial es una etiqueta diferente)*/
+{background: rgb(23, 224, 4); border: 1px solid #FF9900;padding: .1em;}
+
+em.especial/*en la etiqueta esta dentro de "class" */
+{background: #FFCC99; border: 1px solid #FF9900;padding: .1em;}
+/* Elementos "span" contenidos en .normal */
+.normal span{font-weight: bold;}
+</style>
+</head>
+<body>
+<div id="primero">
+<p>Lorem ipsum dolor sit amet, <a href="#">consectetuer adipiscingelit</a>. Praesent blandit nibh at felis. Sed nec diam in dolor v
+estibulum aliquet. Duis ullamcorper, nisi non facilisis molestie,<em>lorem sem aliquam nulla</em>, id lacinia velit mi vestibulum enim.</p>
+</div>
+<div class="normal">
+<p>Phasellus eu velit sed lorem sodales egestas. Ut feugiat. <span><a href="#">Donec porttitor</a>, magna eu varius luctus,</span> metus massa tristique massa, in imperdiet est velit vel magna. Phas
+ellus erat. Duis risus. <a href="#">Maecenas dictum</a>, nibh vitae pellentesque auctor, tellus velit consectetuer tellus, tempor pr
+etium felis tellus at metus.</p>
+<p>Cum sociis natoque <em class="especial">penatibus etmagnis</em> dis parturient montes, nascetur ridiculus mus. Proin aliquam convallis ante. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc aliquet. Sed eu metus. Duis justo.</p>
+
+<p>Donec facilisis blandit velit. Vestibulum nisi. Proin volutpat,<em class="especial">enim id iaculis congue</em>, orci justo ultrices tortor, <a href="#">quis lacinia eros libero in eros</a>. Sed malesuada dui vel quam. Integer at eros.</p>
+</div>
+</body>
+</html>

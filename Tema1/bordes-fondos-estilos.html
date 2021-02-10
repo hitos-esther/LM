@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEMA 3 BORDES FONDOS ESTILOS</title>
+</head>
+<style>
+    /* A CADA PARRAFO LE PONEMOS UNA CLASE Y UN BORDE DIFERENTE Y COLOR */
+    p{background-color: blue;
+        border: 15px groove purple;
+        color:white;
+        }
+    /* EN ESTE CASO SOLO CAMBIO EL ESTILO DEL BORDE y le pongo color con difuminación*/    
+    .p2{background-color:blue;
+        border-style: solid;
+        color:rgb(88, 84, 84);
+        background-image: repeating-linear-gradient(to right,blue,white 20%,white);} 
+        /* EN ESTE CASO QUEREMOS BORDES MIXTOS*/
+    .p3{background-color: rgb(81, 255, 0);
+        border: 15px dotted green, 15px solid purple, 15px dashed plum, greenyellow;
+        color:rgb(5, 5, 5);}
+        /*en este caso cambiamos las esquinas con border radious y le pongo color con difuminación y que se repita un 5% (100/0,5)*/
+    .p4{background-color: rgb(255, 0, 0);
+        border-radius: 50px ;
+        padding: 10px;
+        color:white;}
+        /*borde-image: http://w3.unpocodetodo.info/css3/border-image.php     https://www.w3schools.com/css/css3_border_images.asp*/
+    .p5{background-color: rgb(255, 123, 0);
+        border: 15px ridge rgb(159, 250, 12);
+        color:white;
+        background-image: repeating-linear-gradient(blue,white 20%,white 5%);}
+
+        /*con imagenes dentro del blocke*/
+    .p6{background:url("./imagenes/small.jpg") bottom right no-repeat ;
+        border-radius: 25px ;
+        padding: 25px;
+        border: 15px dotted green;
+        background-size: cover;
+        background-origin: content-box;
+        color:rgb(0, 0, 0);}        
+
+</style>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean est nisi, luctus quis ante in, lacinia vestibulum purus. Vivamus sit amet turpis massa. Vestibulum imperdiet neque pulvinar, viverra erat ultrices, malesuada est. Etiam ex eros, rutrum id tristique eget, venenatis vel magna. Morbi sed euismod nibh. Proin sit amet porttitor dui, nec bibendum velit. Aliquam leo sem, fringilla lobortis odio ut, consectetur tempor libero. Phasellus eget dui sed ex accumsan aliquet at in ex. Cras venenatis ante rutrum nulla volutpat, vel porta velit tristique.
+        </p>
+        <p class="p2">Vivamus venenatis, ligula a commodo feugiat, erat est dignissim nunc, a convallis metus velit eget nibh. Sed in sollicitudin velit. Vivamus sit amet lacus vitae tellus hendrerit blandit nec ac turpis. Nullam dui odio, tristique in augue non, mollis luctus tellus. Suspendisse in tincidunt purus. Vivamus pellentesque quam eu nunc vulputate hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque et blandit elit. Vestibulum suscipit gravida neque sed mattis. Etiam eu fermentum lacus. Nullam maximus ante nec pellentesque posuere. Duis semper libero in nulla pharetra, tincidunt eleifend justo dictum. Donec posuere orci at nisi pulvinar, nec consequat ipsum congue. Nunc vehicula maximus sem ac consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean nec augue faucibus, vestibulum mauris quis, elementum dui.
+        </p>
+        <p class="p3">Ut et nibh vitae risus pulvinar bibendum. Fusce gravida dolor interdum odio gravida feugiat. Etiam massa lorem, ultrices et accumsan et, commodo vitae arcu. Mauris varius malesuada arcu ut ultricies. Quisque vitae orci sed leo pulvinar venenatis non quis lorem. Etiam porttitor varius nisl, ut consectetur dui facilisis non. Curabitur ullamcorper turpis ac justo volutpat pharetra at a enim. Sed suscipit dignissim ipsum, lobortis malesuada lectus aliquet sed. Sed ac urna malesuada, ultrices massa nec, sagittis sapien. Sed aliquam ante purus, sed malesuada lacus faucibus egestas.
+        </p>
+        <p class="p4">Aliquam erat volutpat. Donec bibendum purus sapien, eu gravida orci congue in. Integer in ex ut orci iaculis accumsan id ac arcu. Ut pretium id diam eu pulvinar. Vivamus consectetur vel arcu in consequat. Nunc quis pretium nisi, non luctus augue. Nam vestibulum dapibus massa. Fusce bibendum pharetra lorem. Aliquam magna tortor, euismod a euismod vitae, ultrices et ipsum. Sed mattis, neque non gravida malesuada, odio mi imperdiet tellus, sed tincidunt neque velit at augue. Aenean hendrerit magna ac sagittis sodales. Pellentesque non ultrices elit. Proin non iaculis metus.
+        </p>
+        <p class="p5">
+        Ut non elit venenatis, consequat dui at, suscipit lorem. In hac habitasse platea dictumst. Morbi ut erat lacinia, fermentum nisi sit amet, euismod augue. Ut vel volutpat massa, vel luctus leo. Etiam blandit magna ut ligula pellentesque luctus. Etiam eu ipsum hendrerit, feugiat enim et, suscipit urna. Pellentesque et mi ornare, ultricies enim eget, fermentum urna. Nulla facilisi. Donec at ipsum commodo, vehicula orci a, facilisis leo. Ut augue ipsum, vulputate nec nibh sit amet, dapibus egestas tortor.
+        </p>
+        <p class="p6">
+            Ut non elit venenatis, consequat dui at, suscipit lorem. In hac habitasse platea dictumst. Morbi ut erat lacinia, fermentum nisi sit amet, euismod augue. Ut vel volutpat massa, vel luctus leo. Etiam blandit magna ut ligula pellentesque luctus. Etiam eu ipsum hendrerit, feugiat enim et, suscipit urna. Pellentesque et mi ornare, ultricies enim eget, fermentum urna. Nulla facilisi. Donec at ipsum commodo, vehicula orci a, facilisis leo. Ut augue ipsum, vulputate nec nibh sit amet, dapibus egestas tortor.
+            </p>
+</body>
+</html>

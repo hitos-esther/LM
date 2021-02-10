@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Calligraffitti&family=Lobster&display=swap');
+@font-face{
+    src:url("/Act-4.7_Layouts/fuentes/Lobster-Regular.ttf");
+    font-family: 'Lobster', cursive;    
+    }
+
+body{
+    margin: 15px 50px;
+    background-color: grey;
+    border:solid pink
+}
+
+header{
+    text-align: center;
+    color: white;
+    font-family: 'Lobster', cursive;
+    width: 800px;
+    margin: 0px auto;
+    
+}
+a{
+    display: block;
+    text-align: left;
+
+}
+nav{
+
+    border:solid pink;
+    float:left;
+    background-color: hotpink;
+    padding: 3px;
+    
+}
+section{
+    border:solid pink;
+    float:left;
+    width: 80%;
+    background-color: white;
+    box-sizing: border-box;
+
+}
+aside{
+    border:solid rgb(20, 18, 18);
+    float: right;
+    background-color: violet;
+    width: 15%;
+    display: block;
+    border: 4px solid blue; 
+}
+article{
+    border:solid rgb(236, 6, 45);
+    float:left;
+    background-color: violet;
+    width: 80%;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer{
+    clear: both;
+    background-color: thistle;
+    width: auto;
+    border:solid rgb(12, 12, 12);
+}
+

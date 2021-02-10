@@ -1,0 +1,99 @@
+/*estilo de la actividad 2.6 claro*/
+*{font-family: myFirstFont;}
+
+/*estilo de de titulos h1, h2, h3, */
+h1{ font-family: "Sofia";
+    text-align:center;
+    text-shadow: 2px 2px 5px rgb(255,0,0);
+    font-size: 90px;}
+
+h2{ font-family: "Sofia";
+    text-align:center;
+    text-shadow: 2px 2px 5px rgb(255,0,0);
+    font-size: 60px;}
+
+h3 {text-decoration: underline;}
+
+#apartado4{ text-align:left;
+            text-shadow: 2px 2px 5px rgb(255,0,0);
+            text-decoration: underline; }
+/*estilo de los parrafos*/
+p{color: rgb(0, 0, 0);
+    font-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;}
+#p1{background-color: rgb(201, 247, 111);;
+    color: rgb(0, 0, 0);} 
+#ultimo{color:rgb(0, 0, 0) ;
+        font-style: italic;
+    }
+#penultimo{background-color: rgb(201, 247, 111); ;}           
+/*estilo de imagen de tim berner*/
+img{background-image: url('./imagenes/Sir_Tim_Berners-Lee_.jpg');
+    border-radius: 8px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height:500px;
+      }
+#fotoberner{text-align: center;}
+mark{color: rgb(27, 27, 26);
+    background-color: rgb(201, 247, 111);
+    text-align: center;}
+/*estilo imagen nextcube y cita del parrafo de la foto*/
+#img{background-image:url('./imagenes/nextcube.jpg');
+    border-radius: 8px; 
+    background-position: left;
+    width: auto;}
+    img:hover {transform: scaleX(-1);}
+#cita{text-align: center; }    
+
+#apartado1{text-align: center;}     
+/*estilo de los botones y colores del indice*/    
+    a {text-decoration: none;}
+    a.indice {border:1px inset rgb(255, 0, 0);
+            border-radius: 10px;
+            padding: 5px;
+            background-color:rgb(239, 144, 144);
+            color: rgb(255, 0, 0);} 
+    a.indice:hover {border:1px outset silver;
+                    background-color: rgb(201, 247, 111);
+                    color: rgb(103, 155, 0);}
+/*estilo del bloque donde esta el Indice*/ 
+    ol {list-style-type: upper-alpha;}
+    ol li {display: list-item;
+            margin: 3px;
+            margin-bottom: 10px;} 
+/*estilo de la imagen de fondo del cuerpo (body)*/
+body {
+    background-color: rgb(92, 204, 204);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    border: 15px solid rgb(255, 0, 0);
+    padding: 50px;
+    margin: 20px;}
+
+/*estilo de enlaces externos apartado 4*/
+.Enlaces {
+    font-style: italic;
+    font-size: 120%;
+    color: red;
+  }
+/*estilo de los botones en enlaces externos apartado 4*/
+/*este codigo es para que la estrella al pasar el mouse se ponga negra pero no me funciona*/
+.rating > span:hover:before {
+    content: "\2605";
+    position: absolute;
+ }
+
+/*estilo de la cita de la foto de berner*/
+cite {text-align:center;
+    background-color: rgba(202, 247, 111, 0.397);}  
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+ }
+ 

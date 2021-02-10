@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Queries</title>
+    <!--Si tuviese un archivo css se enlacaria asi
+        MOVILES=<link rel="stylesheet" href="estilo.css" media ="screen and(max-width:640px)">
+        TABLETS=<link rel="stylesheet" href="estilo.css" media ="screen and (min-width:640px)and (max-width: 1280px)">
+        
+    -->
+    <style>
+        @media screen and (max-width: 640px) /*moviles*/
+        {
+            body {
+                background-color: blue;
+            }  
+        }
+        @media screen and (min-width:640px)and (max-width: 1280px) /*Tablets*/
+        {
+            body {
+                background-color: red;
+            }  
+        }
+        @media screen and (min-width: 1280px) /*pc*/
+        {
+            body {
+                background-color: green;
+            }  
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam rerum quibusdam ab iste repellendus, voluptatum architecto reiciendis accusantium molestias commodi ratione voluptatibus inventore dolore, cupiditate doloribus sit! Totam, aperiam blanditiis!</p>
+</body>
+</html>

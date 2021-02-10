@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(87, 50, 1);
+    padding: 5px 40px 40px;
+}
+
+#contenedor {
+    width: 100%;
+    background-color: rgba(248, 189, 122, 0.952);
+    display: inline-block;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin: auto;
+    white-space: nowrap;
+}
+
+h3 {
+    color: rgb(87, 50, 1);
+    text-align: center;
+    line-height: 5;
+}
+
+.primero {
+    color: yellow;
+}
+table{
+   background-position: center; 
+}
+
+input [type=image] {
+    height: 10px;
+    width: 20px;
+    display:block;
+}
+
+.imagen {
+    height: 5px;
+    display: block;
+}
+
+input[type=radio] {
+    float: left;
+    display: block;
+}
+
+caption {
+    position: center;
+    margin-left: 5px;
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relación Formularios (Pilar 1º DAM)File</title>
+</head>
+
+<body>
+    <form action="procesandoDatos.html" target="_blank" method="POST">
+        <!--post=seguro,get=inseguro-->
+        <table>
+            <caption>EJERCICIO 1</caption>
+            <tr>
+                <td>
+                    <lavel>Nombre:</lavel>
+                </td>
+                <td>
+                    <input type="text" name="Nombre" placeholder="Nombre">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="contraseña">Contraseña:</label>
+                </td>
+                <td>
+                    <input type="text" name="contraseña" placeholder="contraseña">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" value="reseteo">
+                    <input type="submit" value="envio">
+                </td>
+            </tr>
+
+
+
+        </table>
+    </form>
+    <hr>
+
+    <!-- EJERCICIO 2 -->
+    <form action="procesandoDatos.html" target="_blank" method="POST">
+        <!--post=seguro,get=inseguro-->
+        <table>
+            <caption>EJERCICIO 2</caption>
+            <tr>
+                <td>
+                    <lavel>Nombre:</lavel>
+                </td>
+                <td>
+                    <input type="text" name="Nombre" placeholder="Nombre">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="email"><b>Email</b></label>
+                </td>
+                <td>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align: top;">
+                    <label for="subject"><b>Comentario</b>
+                </td>
+                <td>
+                    <textarea id="subject" name="subject" placeholder="describe brevemente en menos de 300 caracteres "
+                        rows="6" cols="23"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" value="Reseteo">
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <!-- EJERCICIO 3-->
+    <form action="procesandoDatos.html" target="_blank" method="POST">
+        <table>
+            <caption>Ejercicio 3</caption>
+            <tr>
+                <td>
+                    <lavel>Nombre:</lavel>
+                </td>
+                <td>
+                    <input type="text" name="Nombre" placeholder="Nombre">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <fieldset>
+                        <legend>Lenguajes de programación</legend>
+                        <table>
+                            <tr>
+                                <td align="right">
+                                    <lavel for="java">JAVA</lavel>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="java" value="java">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <lavel for="javascript">JavaScript</lavel>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="javascript" value="javascript">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="right">
+                                    <lavel for="python">Python</lavel>
+                                </td>
+                                <td>
+                                    <input type="checkbox" name="python" value="python">
+                                </td>
+                            <tr>
+                                <td align="right">
+                                    <lavel for="c">C</lavel>
+                                </td>
+                                <td align="right">
+                                    <input type="checkbox" name="c" value="c">
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="reset" value="Reseteo">
+                    <input type="submit" value="Enviar">
+                </td>
+            </tr>
+        </table>
+
+        </td>
+        </tr>
+
+        </from>
+        <hr>
+        <!-- EJERCICIO 5 -->
+        <h3>EJERCICIO 5</h3>
+        <form>
+            <select name="color">
+                <!--multiple size="3"-->
+                <optgroup label="Calidos">
+                    <option value="rojo">Rojo</option>
+                    <option value="rosa">Rosa</option>
+                    <option value="amarillo">Amarillo</option>
+                    <option value="blanco">blanco</option>
+                </optgroup>
+                <optgroup label="Frios">
+                    <option value="rojo">Rojo</option>
+                    <option value="azul">Azul</option>
+                    <option value="verde">Verde</option>
+                    <option value="morado">Morado</option>
+                </optgroup>
+            </select>
+            <br>
+            <input type="submit" value="envio">
+            </from>
+            <hr>
+
+            <!-- EJERCICIO 7 -->
+            <h3>EJERCICIO 7</h3>
+            <form action="salida.html" target="_blank" method="post">
+                <!-- method="post"con POST NO se ven los datos en la URL donde enviamos la informacion introducida-->
+                <!--method="get" con GET SI se ven los datos en la URL donde enviamos la informacion introducida-->
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <lavel for="apeNom">Apellido y Nombre:</lavel>
+                            </td>
+                            <td>
+                                <input type="text" name="apeNom" placeholder="Apellido y Nombre">
+                            </td>
+                        </tr>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="dni">DNI</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="dni" value="" placeholder="No. DNI" maxlength="9"
+                                        size="10">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="fnac">Fecha de nacimiento:</label>
+                                </td>
+                                <td>
+                                    <input type="date" name="fnac" value="" maxlength="9" size="10">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="dir">Dirección:</label>
+                                </td>
+                                <td>
+                                    <input type="dir" name="dir" value="" placeholder="Dirección">
+                                </td>
+                            </tr>
+                        </table>
+                </fieldset>
+                <fieldset>
+                    <legend>Datos Laborales</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <lavel for="Nombre">Nombre de la empresa:</lavel>
+                            </td>
+                            <td>
+                                <input type="Nombre" name="Nombre" placeholder="Nombre de la empresa">
+                            </td>
+                        </tr>
+                        <table>
+                            <tr>
+                                <td>
+                                    <label for="act">Actividad:</label>
+                                </td>
+                                <td>
+                                    <input type="text" name="act" value="" placeholder="Actividad de la empresa">
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <label for="fnac">Fecha de nacimiento:</label>
+                                </td>
+                                <td>
+                                    <input type="date" name="fnac" max="2020-12-31">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="dir">Dirección:</label>
+                                </td>
+                                <td>
+                                    <input type="dir" name="dir" value="" placeholder="Dirección">
+                                </td>
+                            </tr>
+
+                        </table>
+                </fieldset>
+                <tr>
+                    <td align="right">
+                        <input type="submit" value="envio">
+                        <input type="image" src="submit.gif" alt="Submit" width="48" height="48">
+                    </td>
+                </tr>
+                </from>
+                <hr>
+
+                <!-- EJERCICIO 8 -->
+                <h3>EJERCICIO 8</h3>
+
+                <form>
+                    <table>
+                        <tr>
+                            <td>
+                                <lavel for="Nombre"><b>Nombre:</b></lavel>
+                            </td>
+                            <td>
+                                <input type="text" name="Nombre" placeholder="Nombre">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email"><b>Email</b></label>
+                            </td>
+                            <td>
+                                <input type="text" id="email" name="email" placeholder="Email">
+                            </td>
+                        </tr>
+                        <tr>
+                    </table>
+                    <input list="paises" name="paises">
+                    <datalist id="paises">
+                        <option selected><b>Seleccione Pais</b></option>
+                        <option value="españa">España</option>
+                        <option value="francia">Francia</option>
+                        <option value="Alemania">Alemania</option>
+                        <option value="Grecia">Grecia</option>
+                    </datalist>
+                    <select align="left" name="Pais">
+                        <!--<input type="text" id="Pais" name="Pais"placeholder="Seleccione Pais" >-->
+                        <option selected><b>Seleccione Pais</b></option>
+                        <optgroup label="Europa">
+                            <option value="españa">España</option>
+                            <option value="francia">Francia</option>
+                            <option value="Alemania">Alemania</option>
+                            <option value="Grecia">Grecia</option>
+                        </optgroup>
+                        <optgroup label="America">
+                            <option value="Argentina">Argentina</option>
+                            <option value=" Bahamas"> Bahamas</option>
+                            <option value="Barbados">Barbados</option>
+                            <option value="Canadá">Canadá</option>
+                        </optgroup>
+                    </select><br>
+                    <label for="valoración" name="valoración"><b>Como calificaria a este sitio:</b></label>
+                    <select name="valoración" align="left">
+                        <optgroup>
+                            <option value="Bueno">Bueno</option>
+                            <option value="Regular">Regular</option>
+                            <option value="Malo">Malo</option>
+                        </optgroup>
+                    </select><br>
+                    <tr>
+                        <td>
+                    <textarea  name="textarea" rows="4" cols="57" placeholder="Ingrese aqui sus comentarios"></textarea><br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left">
+                            <input type="submit" value="Enviar">
+                        </td>
+                    </tr>
+                </form>
+                <hr>
+</body>
+
+</html>

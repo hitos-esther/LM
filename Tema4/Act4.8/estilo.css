@@ -1,0 +1,21 @@
+body{
+    min-width:600px;
+    } 
+ 
+div{
+    border:2px solid rgb(67, 126, 67);
+    }
+.header{
+    height: 20vh;
+    }
+.menu{
+    float:left;
+    width: 30vmax;
+    }
+.content{float:left;
+        width: 65vw;
+        }
+
+.footer{clear: both;
+        height: 15vh;
+        }

@@ -1,0 +1,132 @@
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [x0]1fr [x1];
+    grid-template-rows: [y0]0.25fr [y1]1fr [y2];
+    grid-column-gap: 0.5px;
+    grid-row-gap: 0.5px;
+}
+
+.barra1 {
+    background-color: rgb(248, 247, 247);
+    grid-column: x0 / x1;
+    grid-row: y0 / y1;
+    height: 50px;
+}
+
+.barra2 {
+    height: 90px;
+    background: linear-gradient(to left, #3399ff 0%, #00ffff 100%);
+    margin: 0px 0px;
+    grid-column: x0 / x1;
+    grid-row: y1 / y2;
+}
+
+#contenedor {
+    max-width: 100%;
+    margin: auto;
+    background-position: center;
+    margin-top: 20px;
+
+}
+
+.Rectangulo {
+    display: inline-block;
+    padding: 5px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 80.4%;
+    height: 80px;
+    top: 20px;
+    
+}
+
+.cuad1 {
+    display: inline-block;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+}
+
+.cuad2 {
+    display: inline-block;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+  
+}
+
+.cuad3 {
+    display: inline-block;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+   
+}
+
+.cuad4 {
+    display: inline-block;
+    padding: 5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+   
+}
+
+.cuad5 {
+    display: inline-block;
+    padding:5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+    
+}
+
+.cuad6 {
+    display: inline-block;
+    padding:5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+   
+}
+
+.cuad7 {
+    display: inline-block;
+    padding:5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+    
+}
+
+.cuad8 {
+    display: inline-block;
+    padding:5%;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #aaaaaa;
+    width: 10%;
+    height: 50px;
+   
+}
+
+footer {
+    background-color: rgb(5, 5, 5);
+    grid-column: x0 / x1;
+    grid-row: y0 / y1;
+    height: 50px;
+    color: white;
+}

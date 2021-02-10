@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Refresh" content="3; URL=Formularios_Ejercicio9.html">
+    <link href="Formularios_Ejercicio9.css" rel="stylesheet">
+    <title>Relación Formularios_Ejercicio 9</title>
+</head>
+
+<body>
+    <div id="contenedor">
+        <from action="">
+            <h2>Encuesta - Preferencia de Usuarios</h2>
+            <h3>Este test a sido desarrollado a modo de <span class="primero">ejemplo</span> por la alumna Esther Hitos
+                Garcia de 1º de DAW</h3>
+            <hr>
+            <table>
+                <div class="imagen">
+                    <caption><b>Pregunta 1:</b>cual de estas imagenes te gusta más?</caption>
+                    <tr>
+                        <td>
+                            <input type="radio" name="boton" value="1">
+                        </td>
+                        <td>
+                            <input type="image" name="imagen" src="/imagenes/linea1.jpg" alt="ordenador">
+                        </td>
+                        <td>
+                            <input type="radio" name="boton" value="2">
+                        </td>
+                        <td>
+                            <input type="image" name="imagen" src="/imagenes/linea2.jpg" alt="mar">
+                        </td>
+                    </tr>
+                </div>
+
+
+                <table>
+                    <hr>
+                    <tr>
+                        <td>
+                            <caption><b>Pregunta 2:</b> Indica que lugares prefieres para descansar:</caption><br>
+                        </td>
+                        <td>
+                            <form>
+                                <input type="checkbox" id="vehicle1" name="vehicle1" value="playa">
+                                <label for="vehicle1"> Playa</label><br>
+                                <input type="checkbox" id="vehicle2" name="vehicle2" value="campo">
+                                <label for="vehicle2"> Campo</label><br>
+                                <input type="checkbox" id="vehicle3" name="vehicle3" value="montaña">
+                                <label for="vehicle3"> Montaña</label>
+                              </form>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <hr>
+                    <tr>
+                        <td>
+                            <caption><b>Pregunta 3:</b> Introduzca su Nombre y Apellido:</caption><br>
+                        </td>
+                        <td>
+                            <form>
+                                <p>Nombre: <input type="text" name="nombre" required></p>
+                                <p>Apellidos: <input type="text" name="apellidos" required></p>
+                              </form>
+                        </td>
+                    </tr>
+                </table>
+                <table>
+                    <hr>
+                    <tr>
+                        <td>
+                            <caption><b>Pregunta 4:</b> Ciudad de origen:</caption><br>
+                        </td>
+                        <td>
+                           <p>Ciudad: <select name="menu"></p>
+                                <option value="1">Malaga</option>
+                                <option value="2">Sevilla</option>
+                                <option value="3" selected>Cadiz</option>
+                              </select>
+                        </td>
+                    
+                        <td>
+                            <input type="submit" value="Enviar Cuestionario">
+                        </td>
+                    </tr>
+                </table>
+            </table>
+        </from>
+
+    </div>
+</body>
+
+</html>

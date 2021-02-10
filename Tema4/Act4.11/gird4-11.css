@@ -1,0 +1,73 @@
+.grid {
+    display: grid;
+    grid-template-columns: [x0]1fr [x1]1fr [x2]1fr [x3]1fr [x4]1fr [x5]1fr;
+    grid-template-rows: [y0]0.25fr [y1]1fr [y2]0.25fr [y3]1fr [y4]1fr;
+    grid-column-gap: 0.5px;
+    grid-row-gap: 0.5px;
+}
+
+div {
+    border: 1px solid black;
+}
+
+.cabezera {
+    grid-column: x0/x3;
+    grid-row: y0/y1;
+    background-color: chartreuse;
+    color: black;
+}
+
+.MENU {
+    grid-column: x3/x5;
+    grid-row: y0/y1;
+    background-color: rgb(0, 255, 255);
+}
+
+.NOTICIAS {
+    grid-column: x0/x3;
+    grid-row: y1/y3;
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+
+.Comunicacion {
+    grid-column: x3/x5;
+    grid-row: y1/y2;
+    background-color: rgb(255, 251, 0);
+    color: black;
+}
+
+.Opiniones {
+    grid-column: x3/x5;
+    grid-row: y2/y3;
+    background-color: rgb(153, 0, 255);
+    color: white;
+}
+
+.PIE {
+    grid-column: x0/x2;
+    grid-row: y3/y4;
+    background-color: rgb(0, 17, 255);
+    color: blanchedalmond;
+}
+
+.PIE1 {
+    grid-column: x2/x3;
+    grid-row: y3/y4;
+    background-color: rgb(0, 17, 255);
+    color: blanchedalmond;
+}
+
+.PIE2 {
+    grid-column: x3/x5;
+    grid-row: y3/y4;
+    background-color: rgb(0, 17, 255);
+    color: blanchedalmond;
+}
+
+footer {
+    background-color: blueviolet;
+    background-position: center;
+    color: cornsilk;
+    text-align: center;
+}

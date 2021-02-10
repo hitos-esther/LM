@@ -1,0 +1,9 @@
+input #contenedor {
+    display: block;
+}
+
+select {
+    display: block;
+    background-color: rgb(197, 196, 196);
+    border-radius: 3px;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="act5.8.css" rel="stylesheet">
+  <title>Act 5.8 - Formulario 3 con CSS</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <form action="/action_page.php">
+      <div class="row">
+        <div class="col-25">
+          <label for="fname"><b>Nombre</b></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="fname" name="firstname" placeholder="Escibe tu nombre">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname"><b>Apellidos</b></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="1r Apellido">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="email"><b>Email</b></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="email" name="email" placeholder="Email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+          <label for="lname"><b>Asunto</b></label>
+        </div>
+        <div class="col-75">
+          <input type="text" id="lname" name="lastname" placeholder="titular de la consulta">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-25">
+
+        </div>
+        <div class="col-75-2">
+          <label for="subject"><b>Mensaje</b>
+            <textarea id="subject" name="subject" placeholder="describe brevemente en menos de 300 caracteres " rows="4"
+              cols="90"></textarea>
+          </label>
+
+        </div>
+      </div>
+      <div class="row">
+        <input type="submit" value="enviar datos" onClick="alert('¡Perfecto, los datos se han enviado correctamente!')">
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>

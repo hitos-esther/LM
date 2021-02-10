@@ -1,0 +1,123 @@
+body {
+    background-color: #ffbb99;
+}
+
+#contenedor {
+    margin: 10px 300px;
+}
+
+.cabezera {
+    background-image: url(/Repaso-examen/imagenes/header.jpg);
+    background-size: cover;
+    height: 200px;
+    padding-bottom: 30px;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(247, 159, 76) 10px 10px 10px 10px;
+}
+
+.titulo {
+    float: left;
+    color: orange;
+    margin-top: 65px;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    padding: 110px 10px;
+    background-color: rgb(152, 251, 221);
+    box-shadow: rgb(247, 159, 76) 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+    color: teal;
+    margin: 10px 10px;
+}
+
+ul {
+    
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    color: salmon;
+    /*text-transform: uppercase; lo transforma a mayuscula*/
+}
+
+.cuerpo p {
+    padding-left: 2px;
+    text-indent: 50px;
+    text-align: left;
+    /*letter-spacing: 3px; pone espacios entre las palabras*/
+}
+
+.cuerpo {
+    margin: 15px 0;
+    float: right;
+    width: 73%;
+    padding-top: 2px;
+    background-color: rgb(252, 252, 247);
+    border-radius: 20px 20px 20px 20px;
+    box-shadow: rgb(247, 159, 76) 5px 5px 5px 5px;
+    color: teal;
+}
+
+ol {
+    list-style-type: circle;
+}
+
+.dino {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.libro {
+    float: left;
+    margin-left: 10px;
+}
+
+footer {
+    margin: 20px 0;
+    box-shadow: rgb(247, 159, 76) 10px 10px 10px 10px;
+    border-radius: 20px 20px 20px 20px;
+    background-color: rgb(77, 234, 245);
+    clear: both;
+}
+
+footer p {
+    text-align: center;
+    color: rgb(1, 85, 85);
+}
+
+@media only screen and (max-width:900px) {
+    .dino {
+        width: 40%;
+        margin: 4%;
+    }
+    .libro {
+        width: 40%;
+        margin: 4%;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .cabezera {
+        background-position: center;
+        height: 100px;
+    }
+    .menu {
+        width: 80%;
+        margin: 10.5%;
+    }
+    .libro {
+        width: 80%;
+        margin: 10.5%;
+    }
+    .dino {
+        width: 80%;
+        margin: 10.5%;
+    }
+}

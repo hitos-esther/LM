@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5.4 Tablas</title>
+</head>
+<body>
+ 
+    <table border="1">
+        <caption>Tabla con combinación de tablas y columnas</caption>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <p>Pie de tabla</p>
+                </td>
+            </tr>
+        </tfoot>
+    <tr>
+        <th>Celda 1</th>
+        <th>Celda 2</th>
+        <th>Celda 3</th>
+        <th>Celda 4</th>
+    </tr>
+    <tr>
+        <td  rowspan="3">Celda 5</td> <!--rowspan="3" las filas que quiero-->
+        <td>Celda 6</td>
+        <td colspan="2">Celda 7</td><!--colspan="2" las columnas que quiero-->
+    </tr>
+    <tr>
+        <td>Celda 8</td>
+        <td>Celda 9</td>
+        <td rowspan="2">Celda 10</td>
+    </tr>
+    <tr>
+        <td colspan="2">Celda 11</td>
+    </tr>
+    </table>
+</body>
+
+</html>
