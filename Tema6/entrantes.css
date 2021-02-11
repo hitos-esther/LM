@@ -1,0 +1,17 @@
+.btn-product{
+	width: 100%;
+    
+}
+.body{
+    background-color: aqua;
+}
+.container{
+    background-color:black;
+    width: 100%;
+    margin-top: 20px;
+    border: 10px ridge rgb(0, 255, 255);
+    padding: 60px 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+}

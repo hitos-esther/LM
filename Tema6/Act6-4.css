@@ -5,6 +5,33 @@
 * ==========================================
 *
 */
-header {
-    background-color: aqua; 
+h1,h2{
+color:rgb(3, 37, 37);
+text-align: center;
+font-family: fantasy;
+}
+h3{
+  color:rgb(6, 255, 255);
+  text-shadow: 10px 10px 15px rgb(3, 37, 37);
+  text-align: center;
+  font-family: fantasy;
+  font-size: large;
+}
+img.align-self-start{
+  align-items: center;
+}
+header{
+    background-color: aqua;
+    border: 10px ridge rgb(0, 255, 255); 
   }
+.container{
+  background-color: black;
+  padding: auto;
+}
+.encabezado{
+  background-image: url(/Tema6/bootstrap-5.0.0-beta1-dist/imagenes/plato-comida-dieta-.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 10px ridge rgb(0, 255, 255);
+  
+}
