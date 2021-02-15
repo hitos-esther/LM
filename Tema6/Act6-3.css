@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Team Spirit NF';
+  font-family: 'LuckiestGuy';
   background-image: linear-gradient(rgba(26, 238, 210, 0.65), rgba(77, 49, 235, 0.65)), url(/Tema6/Act6.5/img/fondoComida.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -25,11 +25,15 @@ body {
   background-color: rgba(255, 192, 203, 0.596);
   background-size: cover;
   background-position: center;
-  border: 100px double rgb(103, 2, 161);
+  border: 80px double rgb(103, 2, 161);
 }
-
+.logo{
+  border:9px groove rgb(103, 2, 161);
+  background-position: center;
+}
 .login-heading {
   color: darkorchid;
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
   background-repeat: no-repeat;
   font-display: 20px;
   padding-top: 10px;
@@ -47,6 +51,7 @@ body {
 .form-label-group {
   position: relative;
   margin-bottom: 1rem;
+  margin-top: 1rem;
 }
 
 .form-label-group>input, .form-label-group>label {
@@ -103,6 +108,16 @@ body {
   font-size: 12px;
   color: rgb(68, 20, 20);
 }
+.custom-control-label, .small{
+  font-family: 'LuckiestGuy';
+  color: black;
+  text-shadow: 5px 5px 5px blueviolet;
+}
+.btn{
+  font-family: 'LuckiestGuy';
+  color: black;
+  text-shadow: 5px 5px 5px blueviolet;
+}
 
 /* Fallback for Edge
   -------------------------------------------------- */
@@ -129,6 +144,6 @@ body {
   }
 }
 @font-face {
-  font-family:'Team Spirit NF';
-  src: url(/Tema6/bootstrap-5.0.0-beta1-dist/font/TeamSpiritNF.ttf);
+  font-family:'LuckiestGuy';
+  src: url(/Tema6/bootstrap-5.0.0-beta1-dist/font/LuckiestGuy.ttf);
 }

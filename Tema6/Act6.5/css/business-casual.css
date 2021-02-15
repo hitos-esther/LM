@@ -4,11 +4,11 @@
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
  */
  @font-face {
-  font-family:'Team Spirit NF';
-  src: url(/Tema6/bootstrap-5.0.0-beta1-dist/font/TeamSpiritNF.ttf);
+  font-family:'';
+  src: url(/Tema6/bootstrap-5.0.0-beta1-dist/font/LuckiestGuy.ttf);
 }
 body {
-  font-family: 'Team Spirit NF';
+  font-family: 'LuckiestGuy';
   background-image: linear-gradient(rgba(26, 238, 210, 0.65), rgba(77, 49, 235, 0.65)), url(/Tema6/Act6.5/img/fondoComida.jpg);
   background-attachment: fixed;
   background-position: center;
@@ -21,7 +21,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Team Spirit NF';
+  font-family: 'LuckiestGuy';
+  color: black;
+  text-shadow: 5px 5px 5px black;
 }
 
 p {
@@ -29,7 +31,9 @@ p {
 }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.3);
+  font-family: 'LuckiestGuy';
+  color: black;
+  text-shadow: 5px 5px 5px black;
 }
 
 .site-heading {
