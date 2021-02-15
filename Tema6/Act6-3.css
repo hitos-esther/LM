@@ -2,54 +2,57 @@
   --input-padding-x: 1.5rem;
   --input-padding-y: 0.75rem;
 }
-body{
-  background-color: rgba(0, 255, 255, 0.294);
-}
-.login, .image {
-  min-height: 100vh;
+
+body {
+  font-family: 'Team Spirit NF';
+  background-image: linear-gradient(rgba(26, 238, 210, 0.65), rgba(77, 49, 235, 0.65)), url(/Tema6/Act6.5/img/fondoComida.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
   
-  
-}
-.login-heading{
-  text-transform: uppercase;
- 
 }
 
-.bg-image {
-  background-image: url('bootstrap-5.0.0-beta1-dist/imagenes/mathilde-langevin-1Co4wZ4nTDw-unsplash.jpg');
-  background-size: cover;
-  background-position: center;
-  border: 50px inset rgb(0, 255, 255);
+.login, .image {
+  min-height: 98vh;
 }
 
 .login-heading {
-  font-weight: 300;
-  color:  rgb(54, 85, 82);
-  text-shadow: 10px 10px 15px rgb(8, 1, 1);
-  font-family: monospace;
+  text-transform: uppercase;
+}
+
+.bg-image {
+  background-image: url('bootstrap-5.0.0-beta1-dist/imagenes/niños.png');
+  background-color: rgba(255, 192, 203, 0.596);
+  background-size: cover;
+  background-position: center;
+  border: 100px double rgb(103, 2, 161);
+}
+
+.login-heading {
+  color: darkorchid;
+  background-repeat: no-repeat;
   font-display: 20px;
-  padding-top: 20%;
+  padding-top: 10px;
+  width: 3000px;
+  height: 100px;
 }
 
 .btn-login {
-  font-size: 0.9rem;
+  font-size: 1rem;
   letter-spacing: 0.05rem;
   padding: 0.75rem 1rem;
   border-radius: 2rem;
-  
 }
 
 .form-label-group {
   position: relative;
   margin-bottom: 1rem;
-  
 }
 
 .form-label-group>input, .form-label-group>label {
   padding: var(--input-padding-y) var(--input-padding-x);
   height: auto;
   border-radius: 2rem;
-  
 }
 
 .form-label-group>label {
@@ -70,7 +73,7 @@ body{
 }
 
 .form-label-group input::-webkit-input-placeholder {
-  color:transparent;
+  color: transparent;
 }
 
 .form-label-group input:-ms-input-placeholder {
@@ -98,7 +101,7 @@ body{
   padding-top: calc(var(--input-padding-y) / 3);
   padding-bottom: calc(var(--input-padding-y) / 3);
   font-size: 12px;
-  color: #777;
+  color: rgb(68, 20, 20);
 }
 
 /* Fallback for Edge
@@ -109,7 +112,7 @@ body{
     display: none;
   }
   .form-label-group input::-ms-input-placeholder {
-    color: #777;
+    color:rgb(68, 20, 20);
   }
 }
 
@@ -124,4 +127,8 @@ body{
   .form-label-group input:-ms-input-placeholder {
     color: blueviolet;
   }
+}
+@font-face {
+  font-family:'Team Spirit NF';
+  src: url(/Tema6/bootstrap-5.0.0-beta1-dist/font/TeamSpiritNF.ttf);
 }
